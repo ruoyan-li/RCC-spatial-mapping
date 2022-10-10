@@ -1,3 +1,5 @@
+### Code for cell type distribution analysis ###
+
 ### import packages
 packages <- c("Seurat", "dplyr", "Matrix", 
               "ggplot2", "pheatmap", "RColorBrewer", "viridis",
