@@ -1,3 +1,5 @@
+### Code for intra-tumour expression programme and meta-programme analysis using NMF ###
+
 library(dplyr)
 library(Seurat)
 library(Matrix)
