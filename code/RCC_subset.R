@@ -10,9 +10,9 @@ library(viridis)
 setwd("/lustre/scratch117/cellgen/team205/rl20/kidney_final/object")
 RCC.integrated <- readRDS("RCC_cells_rmdou_by_patient.integrate.SCT.PCA.combineCNV.RDS")
 
-RCC.integrated <- FindNeighbors(object = RCC.integrated, dims = 1:30)
+RCC.integrated <- FindNeighbors(object = RCC.integrated, dims = 1:50)
 RCC.integrated <- FindClusters(object = RCC.integrated, resolution = 0.5)
-RCC.integrated <- RunUMAP(object = RCC.integrated, dims = 1:30)
+RCC.integrated <- RunUMAP(object = RCC.integrated, dims = 1:50)
 
 Col_1 <- c("DarkKhaki", "Yellow2","YellowGreen","IndianRed","Thistle2",
            "LightSlateGray","DarkSeaGreen1","CornflowerBlue","LightSlateBlue",
